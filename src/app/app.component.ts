@@ -3,7 +3,7 @@ import {PrimeNGConfig} from 'primeng/api';
 
 @Component({
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>',
+  templateUrl: 'app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
@@ -14,6 +14,4 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.primengConfig.ripple = true;
   }
-
-
 }
