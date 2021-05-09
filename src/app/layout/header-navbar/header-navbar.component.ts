@@ -12,8 +12,8 @@ export class HeaderNavbarComponent implements OnInit {
   ngOnInit(): void {
     this.menubarItems = [
       {label: 'Home', routerLink: ['/'], icon: 'pi pi-fw pi-home'},
-      {label: 'Evangelion', routerLink: ['/evangelion'], icon: 'pi pi-fw pi-images', disabled: true},
-      {label: 'Other', routerLink: ['/other'], icon: 'pi pi-fw pi-images', disabled: true},
+      {label: 'Evangelion', routerLink: ['/evangelion'], icon: 'pi pi-fw pi-images' },
+      {label: 'Other', routerLink: ['/other'], icon: 'pi pi-fw pi-images' },
       {label: 'Wishlist', routerLink: ['/wishlist'], icon: 'pi pi-fw pi-list', disabled: true},
       {label: 'Contact', routerLink: ['/contact'], icon: 'pi pi-fw pi-envelope', disabled: true},
     ];

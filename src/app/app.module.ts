@@ -16,6 +16,8 @@ import {CardModule} from 'primeng/card';
 import {ButtonModule} from 'primeng/button';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {DividerModule} from 'primeng/divider';
+import {FieldsetModule} from 'primeng/fieldset';
+import {PanelModule} from 'primeng/panel';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import {DividerModule} from 'primeng/divider';
     ButtonModule,
     FontAwesomeModule,
     DividerModule,
+    FieldsetModule,
+    PanelModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
