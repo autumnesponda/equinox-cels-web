@@ -10,6 +10,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { EvangelionComponent } from './pages/evangelion/evangelion.component';
 import { OtherComponent } from './pages/other/other.component';
 import { WishlistComponent } from './pages/wishlist/wishlist.component';
+import { BasicCardComponent } from './pages/shared/basic-card/basic-card.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { WishlistComponent } from './pages/wishlist/wishlist.component';
     ContactComponent,
     EvangelionComponent,
     OtherComponent,
-    WishlistComponent
+    WishlistComponent,
+    BasicCardComponent,
   ],
   imports: [
     AppRoutingModule,
