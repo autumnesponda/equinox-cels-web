@@ -11,6 +11,7 @@ import { EvangelionComponent } from './pages/evangelion/evangelion.component';
 import { OtherComponent } from './pages/other/other.component';
 import { WishlistComponent } from './pages/wishlist/wishlist.component';
 import { BasicCardComponent } from './pages/shared/basic-card/basic-card.component';
+import { EvaCardComponent } from './pages/shared/eva-card/eva-card.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { BasicCardComponent } from './pages/shared/basic-card/basic-card.compone
     OtherComponent,
     WishlistComponent,
     BasicCardComponent,
+    EvaCardComponent,
   ],
   imports: [
     AppRoutingModule,

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Constants} from '../../constants/Constants';
 
 @Component({
   selector: 'app-evangelion',
@@ -6,10 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./evangelion.component.scss']
 })
 export class EvangelionComponent implements OnInit {
-
-  constructor() { }
-
+  ripAsukaUrls = Constants.EVA_FILENAMES[0];
+  catNoiseNpeUrls = Constants.EVA_FILENAMES[1];
   ngOnInit(): void {
   }
-
 }
