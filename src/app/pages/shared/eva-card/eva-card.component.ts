@@ -11,6 +11,7 @@ export class EvaCardComponent implements OnInit {
   @Input() cardSubtitle!: string;
   @Input() celInfo?: string[];
   @Input() cardBody!: string;
+  @Input() modalId!: string;
 
   constructor() { }
 
