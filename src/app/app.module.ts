@@ -12,6 +12,7 @@ import { OtherComponent } from './pages/other/other.component';
 import { WishlistComponent } from './pages/wishlist/wishlist.component';
 import { BasicCardComponent } from './pages/shared/basic-card/basic-card.component';
 import { EvaCardComponent } from './pages/shared/eva-card/eva-card.component';
+import { GalleryModalComponent } from './pages/shared/gallery-modal/gallery-modal.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { EvaCardComponent } from './pages/shared/eva-card/eva-card.component';
     WishlistComponent,
     BasicCardComponent,
     EvaCardComponent,
+    GalleryModalComponent,
   ],
   imports: [
     AppRoutingModule,
