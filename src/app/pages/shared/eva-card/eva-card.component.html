@@ -9,14 +9,14 @@
           <div class="fs-1 mb-0 fw-light">{{cardTitle}}</div>
           <div class="card-subtitle mb-2 fw-lighter fst-italic fs-5">{{cardSubtitle}}</div>
           <hr>
-          <div class="fs-5">
+          <div class="fs-5 content-wrap">
             <ng-template [ngIf]="celInfo !== undefined && celInfo.length > 0">
               <ul><li *ngFor="let line of celInfo">{{ line }}</li></ul>
             </ng-template>
-            <div class="fw-light">{{cardBody}}</div>
+            <div class="fw-light fs-6" style="text-align: justify;" [innerHTML]="cardBody"></div>
           </div>
+          <hr>
           <div class=" text-center">
-            <hr>
             <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" [attr.data-bs-target]="'#' + modalId">
               View Cels
             </button>

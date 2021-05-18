@@ -1,5 +1,4 @@
-import {Component, Input} from '@angular/core';
-import {Constants} from './constants/Constants';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,4 @@ import {Constants} from './constants/Constants';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  @Input() eva00ModalFiles = Constants.EVA_FILENAMES[0].slice(1);
 }
