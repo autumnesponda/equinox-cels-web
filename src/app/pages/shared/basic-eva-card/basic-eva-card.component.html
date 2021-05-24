@@ -1,0 +1,29 @@
+<div class="row shadow">
+  <div class="card m-2 p-2 text-white bg-secondary">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div id="cssfade" [style]="'background-image: url(/assets/Eva/' + secondaryImageUrl +  ');'">
+          <img class="top img-fluid" [src]="'assets/Eva/' + primaryImageUrl" />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-body">
+          <div class="fs-1 mb-0 fw-light">
+            {{cardTitle}}
+          </div>
+          <div class="card-subtitle mb-2 fw-lighter fst-italic fs-5">{{cardSubtitle}}</div>
+          <hr>
+          <div class="fs-5 content-wrap">
+            <ng-template [ngIf]="celInfo !== undefined && celInfo.length > 0">
+              <ul><li *ngFor="let line of celInfo">{{ line }}</li></ul>
+            </ng-template>
+            <div class="fw-light fs-6" style="text-align: justify;" [innerHTML]="cardBody"></div>
+          </div>
+          <hr class="mb-0 p-0">
+          <div class="m-0 p-0 fw-lighter fst-italics text-center" style="font-size: 80%">
+            Hover over the cel to see it's corresponding frame in the actual film!
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

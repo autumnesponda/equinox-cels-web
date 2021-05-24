@@ -1,3 +1,8 @@
+<div class="alert alert-info fade show mr-3" role="alert">
+  <div class="lead d-inline">Evangelion Production Art</div>
+  <div class="d-inline fs-6 fw-lighter"> - my humble collection of one-of-a-kind gems of animation history from Hideaki Anno's 1997 film <i>"The End of Evangelion"</i>.</div>
+</div>
+
 <app-eva-card
   [fileUrls]="ripAsukaUrls"
   cardTitle = "End of Evangelion"
@@ -7,11 +12,11 @@
   'Cels A1 - A16 and B1',
   ]"
   cardBody="
-  In the throes of the Human Instrumentality Project, Shinji and Asuka are seen at Misato's home.
+  In the throes of the Human Instrumentality Project, Shinji Ikari and Asuka Langley are seen at their guardian Misato's home.
   Shinji is pleading for Asuka to save him - to not abandon him.
-  She rejects this; she shouts that Shinji doesn't want Asuka's help, but literally anyone he can run to.
+  She rejects this, shouting that Shinji doesn't want Asuka's help, but literally the help of anyone who will listen.
   Shinji's desperation peaks as he overturns furniture in a tantrum, begging Asuka to save him and not kill him.
-  Asuka coldly looks down at the disheveled boy:
+  As seen here, Asuka coldly looks down at the disheveled boy, uttering only a single word:
   <div class=&quot;text-center mt-2 mb-2 fw-lighter&quot;><i>&quot;No.&quot;</i></div>
   "
   modalId="eva00Modal"
@@ -26,12 +31,28 @@
   'Cut-516',
   'Cels B1 & B2 w/ Douga Sketch',
   ]"
-  cardBody="&quot;I can't lose!&quot; Asuka pilots the recently awakened Evangelion Unit 02.
-    She easily destroys JSSDF tanks, VTOLs, and the frigate in the lake, but has its umbilical cable severed during the
-    fight and is forced to switch to battery power.
-    In the subsequent battle against the Mass Production Evangelions, Unit-02 severely damages all nine of them in a
-    little over three minutes, only to be struck down by a replica Spear of Longinus just as its battery runs out of power."
-    modalId="eva01Modal
-  "
+  cardBody="<i>&quot;I can't lose!&quot;</i> Asuka pilots the recently awakened Evangelion Unit-02.
+  She easily destroys JSSDF tanks, VTOLs, and the frigate in the lake, but has its umbilical cable severed during the
+  fight and is forced to switch to battery power.
+  In the subsequent battle against the Mass Production Evangelions, Asuka severely damages all nine of them in a
+  little over three minutes; seen here are the last two Mass Production Eva Units she battles."
+  modalId="eva01Modal"
 ></app-eva-card>
 <app-gallery-modal [imgUrls]="catNoiseNpeUrls.slice(1)" modalId="eva01Modal"></app-gallery-modal>
+
+<app-basic-eva-card
+  primaryImageUrl = "ASUKAouchCEL.png"
+  secondaryImageUrl = "asukaOUCHmaster.png"
+  cardTitle = "End of Evangelion"
+  cardSubtitle = '"殺してやる。。。ｺﾛｼﾃﾔﾙ..."'
+  [celInfo] = "[
+  'Unknown Cut',
+  'Cel A-10'
+  ]"
+  cardBody="<i>&quot;I'll kill you...&quot;</i> The automated Evangelions, though mangled by Asuka's attacks, all come back to life.
+  Like a volt of vultures, they descend upon the lifeless Unit-02, tearing it apart and exposing its innards.
+  While the Mass Production Evangelions fly away, a wounded Asuka (seen here) coaxes Unit-02 into reactivating in berserk mode.
+  As the automated Evangelions orbit above, Asuka and her Evangelion furiously reach towards them,
+  only to have each of their arms sliced in two by a replica Lance of Longinus.
+  ">
+</app-basic-eva-card>
