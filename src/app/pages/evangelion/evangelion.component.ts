@@ -9,6 +9,7 @@ import {Constants} from '../../constants/Constants';
 export class EvangelionComponent implements OnInit {
   ripAsukaUrls = Constants.EVA_FILENAMES[0];
   catNoiseNpeUrls = Constants.EVA_FILENAMES[1];
+  ritzyMistoUrls = Constants.EVA_FILENAMES[3];
   ngOnInit(): void {
   }
 }

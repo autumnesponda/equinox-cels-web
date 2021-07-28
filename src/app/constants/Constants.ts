@@ -10,6 +10,9 @@ export abstract class Constants {
       ],
       [
         'EOE_02_A10.jpeg'
+      ],
+      [
+        'nge_14_with_cels.mp4', 'NGE_EPISODE13_FULL.png', 'NGE_01_00.png', 'NGE_01_01.png', 'NGE_01_02.png', 'NGE_01_03.png'
       ]
     ];
 }
