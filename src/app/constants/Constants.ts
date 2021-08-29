@@ -13,6 +13,9 @@ export abstract class Constants {
       ],
       [
         'nge_14_with_cels.mp4', 'NGE_EPISODE13_FULL.png', 'NGE_01_00.png', 'NGE_01_01.png', 'NGE_01_02.png', 'NGE_01_03.png'
+      ],
+      [
+        'eoe_heliman_w_cels.mp4', 'EOE_03_combined.jpg', 'EOE_03_C17.jpg', 'EOE_03_D6.jpg'
       ]
     ];
 }
