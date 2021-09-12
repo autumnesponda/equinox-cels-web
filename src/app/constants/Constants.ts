@@ -1,5 +1,6 @@
 export abstract class Constants {
-  static readonly EVA_FILENAMES: string[][] =
+  static MediaUrlPrefix = 'https://storage.googleapis.com/equinox-cels.com/';
+  static EVA_FILENAMES: string[][] =
     [
       [ 'eoe_clip_with_cels.mp4', 'EOE_00_01.jpeg', 'EOE_00_02.jpeg', 'EOE_00_03.jpeg', 'EOE_00_04.jpeg', 'EOE_00_05.jpeg',
         'EOE_00_06.jpeg', 'EOE_00_07.jpeg', 'EOE_00_08.jpeg', 'EOE_00_09.jpeg', 'EOE_00_10.jpeg', 'EOE_00_11.jpeg', 'EOE_00_12.jpeg',
