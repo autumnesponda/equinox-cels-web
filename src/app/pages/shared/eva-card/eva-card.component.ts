@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Constants} from '../../../constants/Constants';
 
 @Component({
   selector: 'app-eva-card',
@@ -6,6 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./eva-card.component.scss']
 })
 export class EvaCardComponent implements OnInit {
+  mediaPrefix = Constants.MediaUrlPrefix;
   @Input() fileUrls!: string[];
   @Input() cardTitle!: string;
   @Input() cardSubtitle!: string;
