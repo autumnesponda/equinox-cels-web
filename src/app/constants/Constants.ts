@@ -17,6 +17,9 @@ export abstract class Constants {
       ],
       [
         'eoe_heliman_w_cels.mp4', 'EOE_03_combined.jpg', 'EOE_03_C17.jpg', 'EOE_03_D6.jpg'
+      ],
+      [
+        'NGE_misato_raw_00.jpg', 'NGE_misato_raw_01.jpg', 'NGE_misato_raw_02.jpg', 'NGE_misato_raw_03.jpg', 'NGE_misato_raw_04.jpg', 'NGE_misato_raw_05.jpg'
       ]
     ];
 }
