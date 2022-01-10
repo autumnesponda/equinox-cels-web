@@ -14,6 +14,8 @@ import { BasicCardComponent } from './pages/shared/basic-card/basic-card.compone
 import { EvaCardComponent } from './pages/shared/eva-card/eva-card.component';
 import { GalleryModalComponent } from './pages/shared/gallery-modal/gallery-modal.component';
 import { BasicEvaCardComponent } from './pages/shared/basic-eva-card/basic-eva-card.component';
+import { LightboxModule} from 'ng-gallery/lightbox';
+import { GalleryModule } from 'ng-gallery';
 
 
 @NgModule({
@@ -34,6 +36,8 @@ import { BasicEvaCardComponent } from './pages/shared/basic-eva-card/basic-eva-c
   imports: [
     AppRoutingModule,
     BrowserModule,
+    GalleryModule,
+    LightboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

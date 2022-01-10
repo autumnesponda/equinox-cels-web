@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Constants} from '../../constants/Constants';
+import { Constants } from '../../constants/Constants';
+import { GalleryItem, ImageItem } from 'ng-gallery';
 
 @Component({
   selector: 'app-other',
@@ -7,9 +8,10 @@ import {Constants} from '../../constants/Constants';
   styleUrls: ['./other.component.scss']
 })
 export class OtherComponent implements OnInit {
-  constructor() { }
+  images: GalleryItem[][] = [];
 
   ngOnInit(): void {
+    for ()
   }
 
 }

@@ -23,6 +23,11 @@
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
+    "paths": {
+//      "@page-eva/*": ["src/pages/evangelion/*"],
+//      "@page-other/*": ["src/pages/other/*"],
+//      "@page-shared/*": ["src/pages/shared/*"],
+    },
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
